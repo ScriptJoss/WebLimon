@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(53, 199, 194, 1) 0%, rgba(221, 249, 185, 1) 90%);
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 150px;
+}
+
+.container img{
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 50%;
+}
+
+.container > h2{
+    font-style: italic;
+    font-size: 3rem;
+    border-bottom: 1px solid #000;
+    line-height: 1.4;
+}
+
+.container > p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 10px;
+    font-style: italic;
+}
+
+.container > a{
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0px 0px 1rem 0.1rem #0005;
+    border-radius: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform:  translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
