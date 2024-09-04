@@ -135,13 +135,13 @@ body{
     color: #000;
 }
 
-.commands-container{
+.commands-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.commands-box{
+.commands-box {
     border: 1.7px solid #0005;
     margin: 1rem;
     max-width: 100%;
@@ -149,34 +149,32 @@ body{
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 1rem 0.5rem #0001;
+    text-align: center;
 }
 
-.commands-box > h4{
-    text-align: center;
+.commands-box > i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+}
+
+.commands-box > h4 {
     font-size: 1.5rem;
     position: relative;
-    bottom: 1.2rem;
-    
+    bottom: 0.5rem;
 }
 
-.commands-box > p{
+.commands-box > p {
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
-.commands-box > i{
-    position: relative;
-    top: 12px;
-    left: 36%;
-    margin-right: 10px;
-    font-size: 1.6rem;
-}
-
-.commands > h2{
+.commands > h2 {
     font-size: 2.7rem;
     font-weight: 500;
     text-align: center;
 }
+
 
 /* About creator */
 
